@@ -3,9 +3,9 @@ import numpy as np
 import joblib
 
 
-model=joblib.load('/content/logistic_regression_model.joblib')
+model=joblib.load('logistic_regression_model.joblib')
 
-vectorizer = joblib.load('/content/vectorizer.joblib')
+vectorizer = joblib.load('vectorizer.joblib')
 
 st.title("Message Check - Spam or Ham (Not a Spam)")
 st.subheader("Enter a message to identify Spam or Ham")
