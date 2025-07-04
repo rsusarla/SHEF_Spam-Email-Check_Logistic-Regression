@@ -3,9 +3,9 @@ import streamlit as st
 import numpy as np
 import joblib
 
-model=joblib.load('/content/new_logistic_regression_model.joblib')
+model=joblib.load('new_logistic_regression_model.joblib')
 
-vectorizer = joblib.load('/content/new_vectorizer.joblib')
+vectorizer = joblib.load('new_vectorizer.joblib')
 
 st.title("Message Check - Spam or Ham")
 st.header("Logistic Regression Model - Version 2.0")
